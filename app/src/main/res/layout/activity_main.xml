@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajkhan1.smarthomeapp.MainActivity">
+
+    <Button
+        android:id="@+id/kitchen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Kitchen"
+        app:layout_constraintBottom_toTopOf="@+id/masterBedroom"
+        app:layout_constraintEnd_toStartOf="@+id/livingRoom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/livingRoom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Living Room"
+        app:layout_constraintBottom_toTopOf="@+id/bedroom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kitchen"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/masterBedroom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="16dp"
+        android:text="Master Bedroom"
+        app:layout_constraintBottom_toTopOf="@+id/basement"
+        app:layout_constraintEnd_toStartOf="@+id/bedroom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kitchen" />
+
+    <Button
+        android:id="@+id/bedroom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="16dp"
+        android:text="Bedroom"
+        app:layout_constraintBottom_toTopOf="@+id/guestRoom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/masterBedroom"
+        app:layout_constraintTop_toBottomOf="@+id/livingRoom" />
+
+    <Button
+        android:id="@+id/basement"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="16dp"
+        android:text="Basement"
+        app:layout_constraintBottom_toTopOf="@+id/backyard"
+        app:layout_constraintEnd_toStartOf="@+id/guestRoom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/masterBedroom" />
+
+
+    <Button
+        android:id="@+id/guestRoom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="16dp"
+        android:text="Guest Room"
+        app:layout_constraintBottom_toTopOf="@+id/garage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/basement"
+        app:layout_constraintTop_toBottomOf="@+id/bedroom" />
+
+    <Button
+        android:id="@+id/backyard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="16dp"
+        android:text="Backyard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/garage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basement" />
+
+    <Button
+        android:id="@+id/garage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="16dp"
+        android:text="Garage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backyard"
+        app:layout_constraintTop_toBottomOf="@+id/guestRoom" />
+</android.support.constraint.ConstraintLayout>

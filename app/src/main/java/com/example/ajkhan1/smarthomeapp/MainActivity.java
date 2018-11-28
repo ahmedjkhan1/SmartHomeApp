@@ -38,5 +38,22 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+
+        Button buttonDoor = findViewById(R.id.bedroom);
+
+        buttonDoor.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick (View v){
+
+                String roomName = "Doors";
+                Intent intent = new Intent
+                        (MainActivity.this, Doors.class);
+                intent.putExtra("roomName", roomName);
+                startActivity(intent);
+            }
+
+
+        });
+
     }
 }

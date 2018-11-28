@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SmartHomeApp.iml" filepath="$PROJECT_DIR$/SmartHomeApp.iml" />
+      <module fileurl="file://C:\Users\ajkhan1\StudioProjects\SmartHomeApp\SmartHomeApp.iml" filepath="C:\Users\ajkhan1\StudioProjects\SmartHomeApp\SmartHomeApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\ajkhan1\StudioProjects\SmartHomeApp\app\app.iml" filepath="C:\Users\ajkhan1\StudioProjects\SmartHomeApp\app\app.iml" />
     </modules>
   </component>
 </project>

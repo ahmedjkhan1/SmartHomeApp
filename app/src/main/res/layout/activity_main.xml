@@ -52,7 +52,7 @@
         android:layout_height="0dp"
         android:layout_marginBottom="7dp"
         android:layout_marginEnd="16dp"
-        android:text="Bedroom"
+        android:text="Doors"
         app:layout_constraintBottom_toTopOf="@+id/guestRoom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/masterBedroom"
